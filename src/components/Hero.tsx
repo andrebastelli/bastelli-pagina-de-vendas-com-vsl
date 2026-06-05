@@ -1,4 +1,4 @@
-import { ArrowRight, PlayCircle, AlertTriangle, Sparkles } from 'lucide-react'
+import { ArrowRight, AlertTriangle, Sparkles } from 'lucide-react'
 import { siteData } from '@/data/data'
 import { events } from '@/utils/analytics'
 
@@ -54,21 +54,14 @@ export function Hero() {
 
           <div className="relative overflow-hidden rounded-[2rem] border border-white/70 bg-white p-3 shadow-2xl shadow-black/10">
             <div className="relative aspect-video overflow-hidden rounded-[1.5rem] bg-[#1F2937]">
-              {/* Inserir VSL aqui */}
-              <div className="flex h-full w-full flex-col items-center justify-center px-6 text-center">
-                <div className="mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-[#D57241] text-[#F5F1EC] shadow-xl shadow-[#D57241]/30">
-                  <PlayCircle className="h-11 w-11" />
-                </div>
-
-                <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#F5F1EC]/60">
-                  VSL
-                </p>
-
-                <p className="mt-2 max-w-sm text-lg font-black leading-tight text-[#F5F1EC] sm:text-xl">
-                  Insira aqui o vídeo de apresentação do Bruno
-                </p>
-              </div>
-            </div>
+  <iframe
+    className="h-full w-full"
+    src="https://www.youtube.com/embed/8r-eyP_bdlU?autoplay=1&mute=1&rel=0&modestbranding=1&playsinline=1"
+    title="VSL Introdução ao E-commerce Bastelli"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  />
+</div>
 
             <div className="mt-4 rounded-[1.4rem] bg-[#FFF8F3] p-4">
               <div className="mx-auto flex max-w-2xl flex-col items-center gap-3 sm:flex-row sm:justify-center sm:text-left">
