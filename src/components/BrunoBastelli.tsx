@@ -35,9 +35,8 @@ export function BrunoBastelli() {
   return (
     <section
       id="curso"
-      className="relative overflow-hidden bg-[#F5F1EC] py-16 sm:py-20 lg:py-24"
+      className="relative overflow-hidden bg-grid py-16 sm:py-20 lg:py-24"
     >
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(213,114,65,0.10),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(40,74,120,0.08),transparent_34%)]" />
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-[1fr_0.95fr] lg:gap-16">

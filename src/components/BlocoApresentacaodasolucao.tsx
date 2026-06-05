@@ -18,10 +18,10 @@ import {
 
 export function BlocoApresentacaodasolucao() {
   const falsasCausas = [
-    'Achavam que era tráfego.',
-    'Achavam que era plataforma.',
-    'Achavam que era preço.',
-    'Achavam que era produto.',
+    'Olhavam para o tráfego.',
+    'Olhavam para a plataforma.',
+    'Olhavam para o preço.',
+    'Olhavam para o produto.',
   ]
 
   const temas = [
@@ -101,19 +101,17 @@ export function BlocoApresentacaodasolucao() {
           </span>
 
           <h2 className="mt-5 text-3xl font-black leading-tight text-[#1F2937] text-balance sm:text-4xl lg:text-6xl">
-            Esse curso nasceu de uma{' '}
+            Depois de entender o problema, o próximo passo é aprender a enxergar
+            sua operação com{' '}
             <span className="relative inline-block text-[#D57241]">
-              necessidade real
+              clareza
               <span className="absolute -bottom-1 left-0 h-2 w-full rounded-full bg-[#D57241]/20" />
-            </span>{' '}
-            dos nossos clientes.
+            </span>
+            .
           </h2>
 
           <p className="mx-auto mt-5 max-w-3xl text-base font-medium leading-relaxed text-[#1F2937]/70 text-pretty sm:text-lg lg:text-xl">
-            Ao longo dos atendimentos, percebemos algo se repetindo: muitos
-            lojistas queriam vender mais, investir melhor e tomar decisões mais
-            estratégicas, mas ainda não entendiam o e-commerce como uma operação
-            completa.
+            Foi por isso que esse curso nasceu.
           </p>
         </div>
 
@@ -127,16 +125,21 @@ export function BlocoApresentacaodasolucao() {
                 </div>
 
                 <p className="text-xs font-black uppercase tracking-[0.18em] text-[#D57241]">
-                  O padrão que se repetia
+                  Uma dor real dos clientes
                 </p>
 
                 <h3 className="mt-3 text-2xl font-black leading-tight text-[#F5F1EC] text-balance sm:text-3xl">
-                  Muitos olhavam só para uma parte do problema.
+                  O Introdução ao E-commerce Bastelli não foi criado para
+                  prometer dinheiro fácil.
                 </h3>
               </div>
             </div>
 
             <div className="px-6 py-8 sm:px-8">
+              <p className="mb-5 rounded-2xl border border-[#D57241]/20 bg-[#FFF8F3] px-5 py-4 text-base font-bold leading-relaxed text-[#1F2937] sm:text-lg">
+                Ele nasceu de uma dor real dos nossos clientes.
+              </p>
+
               <div className="grid gap-3 sm:grid-cols-2">
                 {falsasCausas.map((item, index) => (
                   <div
@@ -149,7 +152,7 @@ export function BlocoApresentacaodasolucao() {
               </div>
 
               <p className="mt-5 rounded-2xl border border-[#D57241]/20 bg-[#FFF8F3] px-5 py-4 text-base font-bold leading-relaxed text-[#1F2937] sm:text-lg">
-                Mas, na prática, faltava enxergar o todo.
+                Mas muitas vezes não conseguiam enxergar o todo.
               </p>
             </div>
           </div>
@@ -166,15 +169,24 @@ export function BlocoApresentacaodasolucao() {
           </h3>
 
           <p className="mx-auto mt-4 max-w-4xl text-base font-medium leading-relaxed text-[#1F2937]/75 sm:text-lg">
-            Primeiro criamos um treinamento interno para apresentar aos clientes
-            os fundamentos de uma loja virtual: planejamento, loja, operação,
-            marketing, dados, metas, ferramentas e processos.
+            Dentro da Bastelli, percebemos que muitos lojistas queriam vender
+            mais, investir melhor e crescer no digital, mas ainda não entendiam
+            o e-commerce como uma operação completa.
+          </p>
+
+          <p className="mx-auto mt-4 max-w-4xl text-base font-medium leading-relaxed text-[#1F2937]/75 sm:text-lg">
+            Eles olhavam para o tráfego, para a plataforma, para o preço ou para
+            o produto, mas muitas vezes não conseguiam enxergar o todo.
           </p>
 
           <p className="mx-auto mt-4 max-w-4xl text-base font-bold leading-relaxed text-[#1F2937] sm:text-lg">
-            Quando vimos o quanto isso ajudava os clientes a entenderem melhor o
-            próprio negócio, decidimos transformar esse conteúdo em um curso
-            aberto.
+            Por isso, criamos um treinamento interno para introduzir nossos
+            clientes aos principais fundamentos de uma loja virtual.
+          </p>
+
+          <p className="mx-auto mt-4 max-w-4xl text-base font-bold leading-relaxed text-[#1F2937] sm:text-lg">
+            Quando vimos o quanto isso ajudava na clareza das decisões,
+            transformamos esse conteúdo em um curso aberto.
           </p>
         </div>
 
@@ -202,7 +214,8 @@ export function BlocoApresentacaodasolucao() {
         {/* Temas */}
         <div className="mx-auto mb-8 max-w-4xl text-center">
           <p className="text-sm font-black uppercase tracking-[0.16em] text-[#D57241]">
-            Você vai passar por temas como:
+            Durante as aulas, eu, Bruno Bastelli, vou te conduzir pelos
+            fundamentos de uma operação de e-commerce real:
           </p>
         </div>
 
@@ -241,10 +254,8 @@ export function BlocoApresentacaodasolucao() {
         {/* Fechamento */}
         <div className="mx-auto mt-10 max-w-4xl rounded-3xl border border-[#284A78]/10 bg-white/85 px-5 py-5 text-center shadow-sm backdrop-blur-sm sm:mt-12 sm:px-8 sm:py-7">
           <p className="text-base font-bold leading-relaxed text-[#1F2937] sm:text-lg lg:text-xl">
-            Não é um curso para decorar termos técnicos. É para você começar a
-            entender o que está fazendo, por que está fazendo e quais pontos
-            precisa observar antes de tomar decisões importantes no seu
-            e-commerce.
+            Não para decorar termos técnicos, mas para olhar para o seu negócio
+            com mais consciência e parar de tomar decisões no escuro.
           </p>
         </div>
       </div>

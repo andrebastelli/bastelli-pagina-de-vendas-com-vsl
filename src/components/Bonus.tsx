@@ -15,42 +15,42 @@ export function Bonus() {
       icon: BookOpen,
       titulo: 'E-book Introdução ao E-commerce',
       descricao:
-        'Para revisar os conceitos principais do treinamento e consultar sempre que precisar.',
+        'Um material de apoio para revisar os conceitos mais importantes do curso e consultar sempre que precisar retomar a base.',
       imagem: '/bonus/ebook-introducao-ecommerce.png',
     },
     {
       icon: BookOpen,
       titulo: 'E-book Roda do E-commerce',
       descricao:
-        'Para analisar sua loja pelos quatro pilares da metodologia e entender onde estão os gargalos.',
+        'Um material estratégico para analisar sua loja pelos quatro pilares da metodologia Bastelli: Planejamento, Loja, Operação e Marketing.',
       imagem: '/bonus/ebook-roda-ecommerce.png',
     },
     {
       icon: ClipboardCheck,
-      titulo: 'Manual de Boas Práticas',
+      titulo: 'Manual de Boas Práticas para E-commerce',
       descricao:
-        'Guia prático para melhorar fotos, banners, descrições, páginas de produtos e experiência visual.',
+        'Um guia prático para melhorar pontos que impactam a percepção de valor da loja, como fotos, banners, descrições, páginas de produto e organização visual.',
       imagem: '/bonus/manual-boas-praticas.png',
     },
     {
       icon: Target,
-      titulo: 'Como Definir Metas Inteligentes',
+      titulo: 'Ferramenta Como Definir Metas Inteligentes',
       descricao:
-        'Ferramenta para transformar objetivos soltos em metas claras e conectadas aos indicadores certos.',
+        'Um recurso para transformar objetivos soltos, como “quero vender mais”, em metas mais claras, acompanhadas e conectadas com os indicadores certos.',
       imagem: '/bonus/metas-inteligentes.png',
     },
     {
       icon: KanbanSquare,
       titulo: 'Trello de Campanhas e Ações de Venda',
       descricao:
-        'Painel pronto para organizar campanhas, ações promocionais, datas importantes, tarefas e acompanhamento.',
+        'Um painel pronto para organizar campanhas comerciais, datas importantes, ações promocionais, tarefas e acompanhamento das iniciativas de venda.',
       imagem: '/bonus/trello-campanhas.png',
     },
     {
       icon: Lightbulb,
-      titulo: 'Planilha com +50 Ideias de Ofertas Validadas',
+      titulo: 'Planilha com mais de 50 ideias de ofertas validadas',
       descricao:
-        'Repertório para criar campanhas com mais criatividade, estratégia e adaptação para sua loja.',
+        'Uma planilha complementar, entregue junto com o Trello, para ajudar você a criar campanhas com mais repertório e adaptar ideias de ofertas para diferentes momentos do seu e-commerce.',
       imagem: '/bonus/planilha-ofertas.png',
     },
   ]
@@ -69,7 +69,7 @@ export function Bonus() {
           </span>
 
           <h2 className="mt-5 text-3xl font-black leading-tight text-[#1F2937] text-balance sm:text-4xl lg:text-6xl">
-            Esse curso por si só já pode transformar a sua visão sobre{' '}
+            Esse curso por si só já pode transformar sua visão sobre{' '}
             <span className="relative inline-block text-[#D57241]">
               e-commerce
               <span className="absolute -bottom-1 left-0 h-2 w-full rounded-full bg-[#D57241]/20" />
@@ -78,14 +78,27 @@ export function Bonus() {
           </h2>
 
           <p className="mx-auto mt-5 max-w-3xl text-base font-medium leading-relaxed text-[#1F2937]/70 text-pretty sm:text-lg lg:text-xl">
-            Mas decidimos ajudar você de verdade. Por isso, turbinamos o
-            Introdução ao E-commerce com bônus que, sozinhos, poderiam ser
-            vendidos separadamente.
+            Mas preparamos muito mais para você. Decidimos ajudar você de
+            verdade.
           </p>
 
           <p className="mx-auto mt-4 max-w-3xl rounded-3xl border border-[#D57241]/20 bg-[#FFF8F3] px-5 py-5 text-base font-bold leading-relaxed text-[#1F2937] shadow-sm sm:text-lg">
-            Eles vão ajudar você a alcançar seus resultados com uma vantagem
-            absurda sobre quem ainda vende no escuro, sem estratégias reais.
+            Por isso, turbinamos o Introdução ao E-commerce Bastelli com bônus
+            que, sozinhos, poderiam ser vendidos separadamente.
+          </p>
+
+          <p className="mx-auto mt-4 max-w-3xl text-base font-medium leading-relaxed text-[#1F2937]/70 sm:text-lg">
+            Eles foram pensados para ajudar você a estudar, diagnosticar,
+            organizar metas, planejar campanhas e criar ações de venda com muito
+            mais clareza.
+          </p>
+
+          <p className="mx-auto mt-4 max-w-3xl text-base font-black leading-relaxed text-[#1F2937] sm:text-lg">
+            Quem continua vendendo no escuro depende de tentativa.
+          </p>
+
+          <p className="mx-auto mt-2 max-w-3xl text-xl font-black leading-relaxed text-[#D57241] sm:text-2xl">
+            Você vai sair com estrutura.
           </p>
         </div>
 
@@ -162,13 +175,7 @@ export function Bonus() {
             <div className="px-5 py-6 text-center sm:px-8 sm:py-7 lg:text-left">
               <p className="text-base font-black leading-relaxed text-[#1F2937] sm:text-lg lg:text-xl">
                 Aprenda a estrutura. Diagnostique sua loja. Defina metas.
-                Planeje campanhas. Crie ofertas melhores. Tudo em um só lugar.
-              </p>
-
-              <p className="mt-3 text-sm font-medium leading-relaxed text-[#1F2937]/65 sm:text-base">
-                Os bônus foram pensados para transformar o conteúdo do curso em
-                aplicação prática, ajudando você a organizar, analisar e evoluir
-                sua operação com mais clareza.
+                Planeje campanhas. Crie ofertas melhores.
               </p>
             </div>
           </div>

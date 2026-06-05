@@ -14,42 +14,42 @@ export function Aprendizado() {
       icon: Target,
       title: 'Planejamento e metas',
       description:
-        'Como pensar o e-commerce como negócio, definir objetivos alcançáveis e acompanhar indicadores importantes.',
+        'Como pensar o e-commerce como negócio, definir objetivos mais claros e acompanhar os indicadores certos.',
     },
     {
       number: '02',
       icon: Store,
-      title: 'Plataformas e estrutura de loja',
+      title: 'Plataforma e estrutura da loja',
       description:
-        'O que observar antes de escolher ou ajustar uma plataforma, pensando em experiência, gestão e escalabilidade.',
+        'O que observar antes de escolher, trocar ou ajustar uma plataforma, pensando em gestão, experiência e crescimento.',
     },
     {
       number: '03',
       icon: SearchCheck,
-      title: 'Produtos, fotos, descrições e experiência',
+      title: 'Produtos, fotos, descrições e experiência de compra',
       description:
-        'Como nome, imagem, texto e navegação influenciam a percepção de valor, a confiança e a conversão.',
+        'Como cadastro, imagem, texto, navegação e página de produto influenciam a percepção de valor e a conversão.',
     },
     {
       number: '04',
       icon: CreditCard,
-      title: 'Pagamento, frete, logística e operação',
+      title: 'Pagamentos, frete, logística e operação',
       description:
-        'Como pagamentos, envio, ERP, estoque e rotina impactam diretamente a experiência do cliente.',
+        'Como meios de pagamento, envio, ERP, estoque e rotina impactam diretamente a experiência do cliente.',
     },
     {
       number: '05',
       icon: BarChart3,
       title: 'Marketing, tráfego e dados',
       description:
-        'Como enxergar tráfego pago, conteúdo e tracking como parte de uma estratégia maior, e não como soluções isoladas.',
+        'Como enxergar tráfego pago, conteúdo, campanhas e tracking como partes de uma estratégia maior — e não como soluções isoladas.',
     },
     {
       number: '06',
       icon: Headphones,
       title: 'Atendimento, retenção e crescimento',
       description:
-        'Como pensar relacionamento, recompra, suporte e ciclo de sucesso para crescer com mais consistência.',
+        'Como pensar relacionamento, recompra, suporte e melhoria contínua para construir uma operação mais saudável.',
     },
   ]
 
@@ -66,18 +66,18 @@ export function Aprendizado() {
           </span>
 
           <h2 className="mt-5 text-3xl font-black leading-tight text-[#1F2937] text-balance sm:text-4xl lg:text-6xl">
-            Dentro do treinamento, você vai construir uma{' '}
+            Uma visão clara sobre os principais pontos que sustentam uma{' '}
             <span className="relative inline-block text-[#D57241]">
-              visão clara
+              loja virtual
               <span className="absolute -bottom-1 left-0 h-2 w-full rounded-full bg-[#D57241]/20" />
-            </span>{' '}
-            sobre cada ponto da operação.
+            </span>
+            .
           </h2>
 
           <p className="mx-auto mt-5 max-w-3xl text-base font-medium leading-relaxed text-[#1F2937]/70 text-pretty sm:text-lg lg:text-xl">
-            Você vai entender os principais fundamentos que sustentam uma loja
-            virtual e como cada parte se conecta para formar uma operação mais
-            estratégica, organizada e consciente.
+            Dentro do treinamento, você vai passar pelos temas que todo lojista
+            deveria entender antes de abrir, ajustar ou tentar crescer um
+            e-commerce.
           </p>
         </div>
 

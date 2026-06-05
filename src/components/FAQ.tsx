@@ -6,44 +6,49 @@ export function FAQ() {
 
   const faqs = [
     {
-      pergunta: 'O curso é para iniciantes?',
+      pergunta: 'O curso é para quem está começando?',
       resposta:
-        'Sim. Ele foi pensado para quem quer entender os fundamentos do e-commerce próprio antes de abrir, ajustar ou crescer uma loja.',
+        'Sim. O treinamento foi pensado para quem quer entender os fundamentos do e-commerce antes de abrir, ajustar ou tentar crescer uma loja virtual.',
     },
     {
-      pergunta: 'Serve para quem já tem loja?',
+      pergunta: 'Serve para quem já tem loja virtual?',
       resposta:
-        'Sim. Se você já tem e-commerce, o curso ajuda a identificar gargalos e enxergar pontos que podem estar travando sua operação.',
+        'Sim. Se você já tem loja, o curso pode ajudar a enxergar pontos que talvez estejam travando sua operação, como planejamento, loja, operação, marketing, dados e experiência de compra.',
     },
     {
-      pergunta: 'Preciso ter loja para fazer?',
+      pergunta: 'Preciso ter uma loja virtual para fazer?',
       resposta:
-        'Não necessariamente. O treinamento também serve para quem ainda está planejando entrar no e-commerce e quer começar com clareza.',
+        'Não necessariamente. O curso também serve para quem ainda está planejando entrar no e-commerce e quer começar com mais clareza.',
     },
     {
-      pergunta: 'Ensina tráfego pago?',
+      pergunta: 'O curso ensina tráfego pago?',
       resposta:
-        'O curso mostra como o tráfego se encaixa na operação e quais indicadores acompanhar. Ele não é uma formação avançada em tráfego, mas ajuda a entender o papel do marketing dentro da estratégia.',
+        'O curso apresenta conceitos importantes sobre marketing, tráfego e dados dentro da operação de e-commerce. Ele não é uma formação avançada em tráfego pago, mas ajuda você a entender o papel do tráfego dentro da estratégia.',
     },
     {
-      pergunta: 'Promete que minha loja vai vender mais?',
+      pergunta: 'O curso promete que minha loja vai vender mais?',
       resposta:
-        'Não. A Bastelli não vende promessas de resultado milagroso. O objetivo é dar clareza para que você tome decisões melhores e cresça de forma sustentável.',
+        'Não. A Bastelli não trabalha com promessa de resultado milagroso. O objetivo do curso é ensinar fundamentos, dar clareza e ajudar você a tomar decisões melhores sobre sua operação digital.',
     },
     {
-      pergunta: 'Por quanto tempo terei acesso?',
+      pergunta: 'Quais bônus estão inclusos?',
       resposta:
-        'A definir conforme a plataforma. Você verá essa informação ao se inscrever.',
-    },
-    {
-      pergunta: 'Os bônus estão inclusos?',
-      resposta:
-        'Sim. Todos os materiais listados são incluídos na sua inscrição.',
+        'Você recebe o E-book Introdução ao E-commerce, o E-book Roda do E-commerce, o Manual de Boas Práticas, a Ferramenta de Metas Inteligentes, o Trello de Campanhas e Ações de Venda e a Planilha com mais de 50 ideias de ofertas validadas.',
     },
     {
       pergunta: 'Como recebo o acesso?',
       resposta:
-        'Após a compra, você receberá as instruções de acesso ao curso e aos materiais por e-mail.',
+        'Após a confirmação da compra, você recebe as instruções de acesso ao curso e aos materiais pela plataforma definida para entrega.',
+    },
+    {
+      pergunta: 'Por quanto tempo terei acesso?',
+      resposta:
+        'Esse ponto precisa ser definido antes da publicação da página.',
+    },
+    {
+      pergunta: 'Tem garantia?',
+      resposta:
+        'Sim, se a garantia for mantida na oferta. O prazo exato precisa ser confirmado antes da publicação.',
     },
   ]
 
