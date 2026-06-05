@@ -1,9 +1,10 @@
 import { Hero } from '@/components/Hero'
-import { Blocodeidentificacao } from '@/components/Blocodeidentificacao'
-import { BlocoQuebradecrenca } from '@/components/BlocoQuebradecrenca'
 import { BlocoOproblemareal } from '@/components/BlocoOproblemareal'
-import { BlocoApresentacaodasolucao } from '@/components/BlocoApresentacaodasolucao'
+import { ViradadeChave } from '@/components/ViradadeChave'
+import { BlocoQuebradecrenca } from '@/components/BlocoQuebradecrenca'
 import { RodadoEcommerce } from '@/components/RodadoEcommerce'
+import { BlocoApresentacaodasolucao } from '@/components/BlocoApresentacaodasolucao'
+
 import { Aprendizado } from '@/components/Aprendizado'
 import { Bonus } from '@/components/Bonus'
 import { BlocoParaQuemENaoE } from '@/components/BlocoParaQuemENaoE'
@@ -20,11 +21,12 @@ export function VendasPage() {
     <main>
       <Hero />
       <BlocoOproblemareal />
-      <Blocodeidentificacao />
+      <ViradadeChave />
+      <RodadoEcommerce />
       <BlocoQuebradecrenca />
       
       <BlocoApresentacaodasolucao />
-      <RodadoEcommerce />
+      
       <Aprendizado />
       <Bonus />
       <BlocoParaQuemENaoE />
