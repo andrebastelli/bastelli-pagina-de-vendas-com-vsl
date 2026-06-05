@@ -4,7 +4,6 @@ import { ViradadeChave } from '@/components/ViradadeChave'
 import { BlocoQuebradecrenca } from '@/components/BlocoQuebradecrenca'
 import { RodadoEcommerce } from '@/components/RodadoEcommerce'
 import { BlocoApresentacaodasolucao } from '@/components/BlocoApresentacaodasolucao'
-
 import { Aprendizado } from '@/components/Aprendizado'
 import { Bonus } from '@/components/Bonus'
 import { BlocoParaQuemENaoE } from '@/components/BlocoParaQuemENaoE'
