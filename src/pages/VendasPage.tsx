@@ -19,9 +19,10 @@ export function VendasPage() {
   <div className="min-h-screen bg-grid">
     <main>
       <Hero />
+      <BlocoOproblemareal />
       <Blocodeidentificacao />
       <BlocoQuebradecrenca />
-      <BlocoOproblemareal />
+      
       <BlocoApresentacaodasolucao />
       <RodadoEcommerce />
       <Aprendizado />
