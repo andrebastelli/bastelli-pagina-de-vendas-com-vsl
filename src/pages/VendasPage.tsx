@@ -11,7 +11,7 @@ import { BrunoBastelli } from '@/components/BrunoBastelli'
 import { Oferta } from '@/components/Oferta'
 import { FAQ } from '@/components/FAQ'
 import { CTAFinal } from '@/components/CTAFinal'
-import { Footer } from '@/components/Footer'
+import { Footer } from '@/components/Footer' 
 
 export function VendasPage() {
   return (
