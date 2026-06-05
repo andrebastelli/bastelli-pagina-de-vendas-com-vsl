@@ -1,13 +1,12 @@
 import { Hero } from '@/components/Hero'
 import { BlocoOproblemareal } from '@/components/BlocoOproblemareal'
 import { ViradadeChave } from '@/components/ViradadeChave'
-import { BlocoQuebradecrenca } from '@/components/BlocoQuebradecrenca'
 import { RodadoEcommerce } from '@/components/RodadoEcommerce'
 import { BlocoApresentacaodasolucao } from '@/components/BlocoApresentacaodasolucao'
 import { Aprendizado } from '@/components/Aprendizado'
 import { Bonus } from '@/components/Bonus'
-import { BlocoParaQuemENaoE } from '@/components/BlocoParaQuemENaoE'
 import { BrunoBastelli } from '@/components/BrunoBastelli'
+import { BlocoParaQuemENaoE } from '@/components/BlocoParaQuemENaoE'
 import { Oferta } from '@/components/Oferta'
 import { FAQ } from '@/components/FAQ'
 import { CTAFinal } from '@/components/CTAFinal'
@@ -25,8 +24,8 @@ export function VendasPage() {
       <BlocoApresentacaodasolucao />
       <Aprendizado />
       <Bonus />
-      <BlocoParaQuemENaoE />
       <BrunoBastelli />
+      <BlocoParaQuemENaoE />
       <Oferta />
       <FAQ />
       <CTAFinal />
