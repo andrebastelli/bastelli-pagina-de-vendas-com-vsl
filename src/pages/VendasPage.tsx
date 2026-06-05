@@ -22,10 +22,7 @@ export function VendasPage() {
       <BlocoOproblemareal />
       <ViradadeChave />
       <RodadoEcommerce />
-      <BlocoQuebradecrenca />
-      
       <BlocoApresentacaodasolucao />
-      
       <Aprendizado />
       <Bonus />
       <BlocoParaQuemENaoE />
