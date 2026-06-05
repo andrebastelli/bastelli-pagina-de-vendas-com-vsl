@@ -16,28 +16,28 @@ export function RodadoEcommerce() {
       icon: Target,
       titulo: 'Planejamento',
       descricao:
-        'Metas, calendário, campanhas, indicadores, canais e direção estratégica para a loja crescer com clareza.',
+        'Metas, calendário comercial, campanhas, indicadores, canais, equipe e direção estratégica.',
     },
     {
       numero: '02',
       icon: Store,
       titulo: 'Loja',
       descricao:
-        'Layout, experiência de compra, produtos, descrições, SEO, páginas e conversão dentro da loja virtual.',
+        'Layout, experiência de compra, produtos, descrições, banners, SEO, páginas e conversão.',
     },
     {
       numero: '03',
       icon: Settings2,
       titulo: 'Operação',
       descricao:
-        'Pedidos, estoque, ERP, logística, atendimento e rotina interna para manter o e-commerce funcionando.',
+        'Pedidos, estoque, ERP, logística, expedição, atendimento, processos e rotina interna.',
     },
     {
       numero: '04',
       icon: Megaphone,
       titulo: 'Marketing',
       descricao:
-        'Tráfego, conteúdo, posicionamento, dados, remarketing e relacionamento para atrair e vender melhor.',
+        'Tráfego, conteúdo, posicionamento, dados, remarketing, campanhas e relacionamento.',
     },
   ]
 
@@ -54,18 +54,17 @@ export function RodadoEcommerce() {
           </span>
 
           <h2 className="mt-5 text-3xl font-black leading-tight text-[#1F2937] text-balance sm:mt-6 sm:text-4xl lg:text-6xl">
-            Quando você entende o todo, para de olhar para o e-commerce como{' '}
+            A Roda do E-commerce é o mapa para enxergar onde sua loja está{' '}
             <span className="relative inline-block text-[#D57241]">
-              partes soltas
+              travando
               <span className="absolute -bottom-1 left-0 h-2 w-full rounded-full bg-[#D57241]/20" />
             </span>
             .
           </h2>
 
           <p className="mx-auto mt-5 max-w-3xl text-base font-medium leading-relaxed text-[#1F2937]/70 text-pretty sm:mt-6 sm:text-lg lg:text-xl">
-            A Bastelli criou a metodologia Roda do E-commerce para analisar uma
-            loja de forma completa, identificando onde a operação realmente
-            trava e o que precisa ser melhorado para crescer.
+            Na Bastelli, usamos uma metodologia própria chamada Roda do
+            E-commerce.
           </p>
         </div>
 
@@ -74,9 +73,12 @@ export function RodadoEcommerce() {
           <div>
             <div className="mb-6 rounded-[2rem] border border-[#D57241]/20 bg-[#FFF8F3] px-5 py-5 shadow-sm">
               <p className="text-base font-bold leading-relaxed text-[#1F2937] sm:text-lg">
-                Quando um desses pilares está fraco, a loja sente. E a maioria
-                dos lojistas trabalha no escuro porque foca só em tráfego ou na
-                plataforma.
+                Ela foi criada para ajudar lojistas a analisarem uma loja
+                virtual de forma mais completa, identificando pontos de melhoria
+                em quatro pilares: Planejamento, Loja Virtual, Operação e
+                Marketing. A própria metodologia parte da ideia de que cada
+                pilar precisa funcionar em harmonia para o e-commerce crescer
+                com mais consistência.
               </p>
             </div>
 
@@ -142,9 +144,9 @@ export function RodadoEcommerce() {
         {/* Fechamento */}
         <div className="mx-auto mt-10 max-w-4xl rounded-3xl border border-[#284A78]/10 bg-white/85 px-5 py-5 text-center shadow-sm backdrop-blur-sm sm:mt-12 sm:px-8 sm:py-7">
           <p className="text-base font-bold leading-relaxed text-[#1F2937] sm:text-lg lg:text-xl">
-            A metodologia da Roda do E-commerce ajuda a identificar onde o
-            e-commerce realmente trava e o que precisa ser melhorado para
-            crescer com mais clareza, estrutura e direção.
+            Quando você entende esses pilares, para de olhar apenas para o
+            problema mais óbvio. Você começa a enxergar a operação. E quando
+            enxerga a operação, passa a tomar decisões com muito mais clareza.
           </p>
         </div>
 
