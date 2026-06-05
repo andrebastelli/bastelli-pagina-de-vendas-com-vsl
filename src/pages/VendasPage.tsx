@@ -6,7 +6,6 @@ import { BlocoApresentacaodasolucao } from '@/components/BlocoApresentacaodasolu
 import { Aprendizado } from '@/components/Aprendizado'
 import { Bonus } from '@/components/Bonus'
 import { BrunoBastelli } from '@/components/BrunoBastelli'
-import { BlocoParaQuemENaoE } from '@/components/BlocoParaQuemENaoE'
 import { Oferta } from '@/components/Oferta'
 import { FAQ } from '@/components/FAQ'
 import { CTAFinal } from '@/components/CTAFinal'
@@ -25,7 +24,6 @@ export function VendasPage() {
       <Aprendizado />
       <Bonus />
       <BrunoBastelli />
-      <BlocoParaQuemENaoE />
       <Oferta />
       <FAQ />
       <CTAFinal />
